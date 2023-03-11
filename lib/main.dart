@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iphone_shop/pages/login_page.dart';
 import 'pages/home_page.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'utils./routes.dart';
 import './widgets/themes.dart';
 
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       initialRoute: MyRoutes.HomePage,
       routes: {
         "/": (context) => LoginPage(),
-        MyRoutes.HomePage: (context) => const HomePage(),
+        MyRoutes.HomePage: (context) => HomePage(),
         MyRoutes.LoginPage: (context) => LoginPage()
       },
     );
